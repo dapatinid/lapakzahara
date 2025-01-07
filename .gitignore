@@ -1,5 +1,6 @@
 connection.php
 config.php
+/assets/composer
 
 # di atas php native
 # dibawah ini laravel
