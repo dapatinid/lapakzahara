@@ -1,6 +1,8 @@
 connection.php
 config.php
 /assets/composer
+.htaccess
+.ftpquota
 
 # di atas php native
 # dibawah ini laravel
