@@ -105,7 +105,7 @@ if ($data_sf_tipe_toko['opsi_fitur'] == 'Marketplace') {
                   <?php
                      // Tetapkan nilai berdasarkan kondisi halaman
                      $value = '';
-                     $placeholder = isset($slogan) ? htmlspecialchars(strtoupper($title_name)." | ".$slogan) : '';
+                     $placeholder = isset($slogan) ? htmlspecialchars(strtoupper($title_name)." | ".$slogan." . ") : '';
                      
                      if (basename($_SERVER['SCRIPT_NAME']) === 'search.php') {
                          // Jika di halaman search.php, gunakan kata kunci sebagai nilai
