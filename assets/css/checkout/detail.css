@@ -1,0 +1,1165 @@
+@import url('../all.css');
+
+.dikirim_dari {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.isi_dikirim_dari {
+    width: 500px;
+    padding: 30px;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.isi_dikirim_dari h1 {
+    font-size: 20px;
+}
+
+.box_list_dikirimdari {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.list_dikirimdari {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid var(--border-grey);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.list_dikirimdari p {
+    font-size: 14px;
+    color: var(--black);
+}
+
+.setting_lokasi {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.isi_setting_lokasi {
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 3px;
+}
+
+.isi_setting_lokasi h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.form_provinsi_kota {
+    width: 100%;
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.alamat_lengkap {
+    margin-top: 20px;
+}
+
+.simpan_lokasi {
+    margin-top: 20px;
+}
+
+.batal_lokasi {
+    margin-top: 10px;
+    background-color: var(--border-grey);
+    color: var(--grey);
+}
+
+.batal_lokasi p {
+    color: var(--semi-black);
+}
+
+.batal_voucher {
+    margin-top: 10px;
+    background-color: var(--border-grey);
+    color: var(--grey);
+}
+
+
+.batal_voucher p {
+    color: var(--semi-black);
+}
+
+.isi_form_provinsi_kota {
+    width: 100%;
+}
+
+#loading_lokasi {
+    display: none;
+}
+
+.ubah_ongkir {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 3;
+    display: none;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubah_ongkir_isi {
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 3px;
+    margin: 30px auto;
+    position: relative;
+}
+
+.ubah_ongkir_isi h1 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    text-align: center;
+}
+
+.loading_ubah_ongkir {
+    height: 35px;
+    margin: 80px 0 50px 0;
+}
+
+.res_ubah_ongkir {
+    width: 100%;
+    margin-top: 30px;
+    display: none;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+}
+
+.batal_ubah_ongkir {
+    margin-top: 10px;
+    background-color: var(--border-grey);
+    color: var(--grey);
+}
+
+.batal_ubah_ongkir p {
+    color: var(--semi-black);
+}
+
+.close_ubah_ongkir {
+    width: 23px;
+    height: 23px;
+    border-radius: 3px;
+    position: absolute;
+    background-color: var(--red);
+    right: 5px;
+    top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.close_ubah_ongkir i {
+    color: var(--white);
+    font-weight: bold;
+}
+
+.checkout {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.alamat {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.box_alamat {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.alamat h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.box_alamat h5 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.alamat p {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--semi-black);
+    margin-top: 15px;
+}
+
+.detail_checkout {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    background-color: var(--white);
+}
+
+.detail_checkout h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.box_detail_checkout {
+    width: 100%;
+    margin-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid var(--border-grey);
+    overflow: hidden;
+    display: flex;
+}
+
+.rincian_checkout {
+    width: 600px;
+    float: left;
+    overflow: hidden;
+}
+
+.rincian_checkout img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 3px;
+    float: left;
+}
+
+.judul_rincian_checkout {
+    width: calc(100% - 100px);
+    float: right;
+}
+
+.judul_rincian_checkout h1 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+    margin-bottom: 8px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.judul_rincian_checkout p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--grey);
+    margin-top: 3px;
+}
+
+.judul_rincian_checkout p span {
+    color: var(--orange);
+}
+
+#subtotal_produk {
+    text-align: right;
+}
+
+.box_harga_satuan_checkout {
+    width: calc(100% - 350px);
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.harga_satuan_checkout {
+    text-align: center;
+    margin-left: 50px;
+}
+
+.harga_satuan_checkout p {
+    font-size: 13px;
+    color: var(--grey);
+}
+
+.harga_satuan_checkout h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+    margin-top: 10px;
+}
+
+.opsi_pengiriman {
+    width: 100%;
+    padding: 0 0 30px 0;
+    border-bottom: 1px solid var(--border-grey);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+}
+
+.isi_opsi_pengiriman_1 {
+    flex: 1;
+}
+
+.isi_opsi_pengiriman_1 h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+}
+
+.box_isi_opsi_pengiriman {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.isi_opsi_pengiriman {
+    margin-left: 85px;
+}
+
+.isi_opsi_pengiriman h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+}
+
+.isi_opsi_pengiriman h4 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.isi_opsi_pengiriman p {
+    font-size: 13px;
+    color: var(--semi-black);
+    margin-top: 5px;
+}
+
+.total_pesanan {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.total_pesanan p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+}
+
+.total_pesanan h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+}
+
+.total_pesanan h5 span {
+    font-size: 16px;
+}
+
+.status_pembayaran {
+    width: 100%;
+    padding: 30px 0 0 0;
+    border-top: 1px solid var(--border-grey);
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.status_pembayaran p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--semi-black);
+}
+
+.status_pembayaran h5 {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--orange);
+}
+
+.button_bayar {
+    width: 100%;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.box_bayar {
+    width: 100%;
+}
+.tombol_hubungi {
+  height: 48px;
+  background-color: #d9d9d9;
+  border: 0;
+  border-radius: 3px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+
+.tombol_hubungi p{
+  font-size: 15px;
+  font-weight: 600;
+  color: #2d2d2d;
+  } 
+
+.pop_transfer_manual {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 3;
+    display: none;
+    overflow: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.pop_transfer_manual_isi {
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 3px;
+    margin: 30px auto;
+    position: relative;
+}
+
+
+.batal_pop_transfer_manual {
+    margin-top: 10px;
+    background-color: var(--border-grey);
+    color: var(--grey);
+}
+
+.batal_pop_transfer_manual p {
+    color: var(--semi-black);
+}
+
+.transfer_manual {
+    width: 450px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    border-radius: 3px;
+}
+
+.pop_transfer_manual h1 {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.box_transfer_manual {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+}
+
+.isi_box_transfer_manual {
+    width: 100%;
+}
+
+.isi_box_transfer_manual h5 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.isi_box_transfer_manual h6 {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--orange);
+    margin-top: 5px;
+}
+
+.isi_box_transfer_manual h4 {
+    font-size: 15px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.isi_box_transfer_manual h2 {
+    font-size: 23px;
+    font-weight: 500;
+    color: var(--orange);
+    margin-top: 5px;
+}
+
+.alert_file_npng_bt {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--red);
+    margin-top: 5px;
+    display: none;
+}
+
+#loading_ubt {
+    display: none;
+}
+
+
+.box_list_pop_transfer_manual {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--border-grey);
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+
+.judul_list_pop_transfer_manual {
+  width: 100%;
+  display: block;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.judul_list_pop_transfer_manual h1 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--black);
+}
+
+.judul_list_pop_transfer_manual h5 {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--orange);
+}
+
+.judul_list_pop_transfer_manual p {
+  font-size: 12px;
+  color: var(--semi-black);
+  margin-top: 5px;
+}
+
+.p_mokf_manual {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.back_ubah_tipe_pembayaran {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    z-index: 3;
+    position: fixed;
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+
+.ubah_tipe_pembayaran {
+    width: 480px;
+    padding: 25px;
+    background-color: var(--white);
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.ubah_tipe_pembayaran h1 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.box_ubah_tipe_pembayaran {
+    width: 100%;
+    margin-top: 25px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.isi_box_ubah_tipe_pembayaran {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: var(--semi-grey);
+    color: var(--black);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.isi_box_ubah_tipe_pembayaran_active {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    border-radius: 3px;
+    background-color: var(--orange);
+    color: var(--white);
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.n_utp_judul {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.n_utp_desc {
+    font-weight: 400;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+#pesan_skr_load {
+    display: none;
+}
+
+#loading_p_cod {
+    display: none;
+}
+
+.back_catatan {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--bg-transparent-black);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.box_catatan {
+    width: 450px;
+    padding: 30px;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.box_catatan h1 {
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.butacat {
+    margin-top: 15px;
+}
+
+#load_butacat {
+    display: none;
+}
+
+.back_pv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: var(--bg-transparent-black);
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+}
+
+.voucher {
+    width: 450px;
+    padding: 30px;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.close_voucher {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 23px;
+    color: var(--orange);
+    cursor: pointer;
+}
+
+.voucher h1 {
+    font-size: 20px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.box_isi_voucher {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 15px;
+}
+
+.isi_voucher {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.persen_voucher {
+    width: 110px;
+    height: 100%;
+    background-color: var(--orange);
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 3px 0 0 3px;
+}
+
+.dot_voucher {
+    height: calc(100% - 16px);
+    border-left: 8px dotted var(--white);
+    margin-left: -4px;
+    position: absolute;
+}
+
+.isi_persen_voucher {
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+    color: var(--white);
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.content_voucher {
+    flex: 1;
+    height: 100%;
+    box-sizing: border-box;
+    border: 1px solid var(--border-grey);
+    border-left: 0px;
+    border-radius: 0 3px 3px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.deskripsi_voucher {
+    flex: 1;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.deskripsi_voucher_judul {
+    flex: 1;
+}
+
+.deskripsi_voucher_judul h5 {
+    font-size: 16px;
+    color: var(--black);
+    font-weight: 600;
+}
+
+.deskripsi_voucher_judul p {
+    font-size: 13px;
+    color: var(--semi-black);
+    font-weight: 500;
+    margin-top: 3px;
+}
+
+.deskripsi_voucher_waktu {
+    width: 100%;
+    margin-top: 15px;
+}
+
+.deskripsi_voucher_waktu h5 {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--grey);
+}
+
+.button_voucher {
+    width: 70px;
+    border: 1px solid var(--orange);
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--orange);
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.button_voucher_dk {
+    width: 70px;
+    border: 1px solid var(--border-grey);
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--grey);
+    box-sizing: border-box;
+    padding: 5px 0;
+    font-size: 13px;
+    font-weight: 500;
+    border-radius: 3px;
+    display: none;
+}
+
+.loading_voucher {
+    width: 20px;
+    display: none;
+    margin-right: 35px;
+}
+
+.belum_kv {
+    font-size: 16px;
+    color: var(--semi-black);
+    font-weight: 500;
+}
+
+.belum_kv a {
+    color: var(--orange);
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .isi_setting_lokasi {
+        width: calc(100% - 30px);
+        padding: 20px;
+    }
+    .box_catatan {
+        width: calc(100% - 30px);
+        padding: 20px;
+    }
+
+    .checkout {
+        margin-top: 0;
+    }
+
+    .alamat {
+        padding: 15px;
+    }
+
+    .alamat h1 {
+        font-size: 15px;
+    }
+
+    .box_alamat h5 {
+        font-size: 14px;
+        font-weight: 600;
+        color: var(--orange);
+    }
+
+    .alamat p {
+        font-size: 13px;
+        font-weight: 500;
+        color: var(--semi-black);
+        margin-top: 10px;
+    }
+
+    .detail_checkout {
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .detail_checkout h1 {
+        font-size: 15px;
+    }
+
+    .box_detail_checkout {
+        display: block;
+        margin-top: 15px;
+        padding-bottom: 15px;
+    }
+
+    .rincian_checkout {
+        width: 100%;
+    }
+
+    .rincian_checkout img {
+        width: 68px;
+        height: 68px;
+    }
+
+    .judul_rincian_checkout {
+        width: calc(100% - 83px);
+    }
+
+    .judul_rincian_checkout h1 {
+        font-size: 14px;
+    }
+
+    .judul_rincian_checkout p {
+        font-size: 12px;
+    }
+
+    .box_harga_satuan_checkout {
+        width: 100%;
+        margin-top: 15px;
+        padding-top: 5px;
+        border-top: 1px solid var(--border-grey);
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+
+    .harga_satuan_checkout {
+        width: 100%;
+        /* background-color: red; */
+        margin: 0;
+        margin-top: 8px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .harga_satuan_checkout p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+
+    .harga_satuan_checkout h5 {
+        margin: 0;
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .opsi_pengiriman {
+        /* background-color: red; */
+        margin-top: 15px;
+        padding-bottom: 15px;
+        flex-direction: column;
+    }
+
+    .box_isi_opsi_pengiriman {
+        flex: 1;
+        /* background-color: red; */
+        margin-top: 15px;
+        align-items: center;
+    }
+
+    .isi_opsi_pengiriman {
+        margin: 0;
+    }
+
+    .isi_opsi_pengiriman_hg {
+        flex: 1;
+        /* background-color: green; */
+        text-align: right;
+    }
+
+    .isi_opsi_pengiriman_uo {
+        margin-right: -5px;
+    }
+
+    .isi_opsi_pengiriman_1 h5 {
+        font-size: 14px;
+    }
+
+    .isi_opsi_pengiriman h5 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .isi_opsi_pengiriman h4 {
+        font-size: 13px;
+    }
+
+    .isi_opsi_pengiriman p {
+        font-size: 11px;
+    }
+
+    .total_pesanan {
+        margin-top: 15px;
+    }
+
+    .total_pesanan p {
+        font-size: 14px;
+    }
+
+    .total_pesanan h5 {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .total_pesanan h5 span {
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    .button_bayar {
+        margin-bottom: 15px;
+    }
+
+    .box_bayar {
+        width: 100%;
+        padding: 0 15px;
+    }
+    .tombol_hubungi {
+        width: calc(100% - 30px); /* Lebar akan menyesuaikan dengan margin (15px) */
+        margin: auto;
+        margin-bottom: 15px;
+      }
+
+    .ubah_ongkir_isi {
+        width: 100%;
+        margin: 5% auto;
+        padding: 20px;
+    }
+    
+    .pop_transfer_manual_isi {
+        width: 100%;
+        margin: 5% auto;
+        padding: 20px;
+    }
+
+    .status_pembayaran {
+        padding: 15px 0 0 0;
+        margin-top: 15px;
+    }
+
+    .status_pembayaran p {
+        font-size: 14px;
+    }
+
+    .status_pembayaran h5 {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .ubah_ongkir_isi {
+        width: 100%;
+        margin: 0 15px;
+    }
+    
+    .pop_transfer_manual_isi {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .transfer_manual {
+        width: 95%;
+    }
+
+    .ubah_tipe_pembayaran {
+        width: 100%;
+        margin: 0 15px;
+    }
+
+    .box_ubah_tipe_pembayaran {
+        grid-template-columns: 1fr;
+    }
+
+    .voucher {
+        width: calc(100% - 30px);
+        padding: 20px;
+    }
+    .voucher h1 {
+        font-size: 18px;
+    }
+    .isi_setting_lokasi h1 {
+        font-size: 18px;
+    }
+    .box_catatan h1 {
+        font-size: 18px;
+    }
+
+    .box_isi_voucher {
+        margin-top: 20px;
+        gap: 10px;
+    }
+
+    .persen_voucher {
+        width: 90px;
+    }
+
+    .isi_persen_voucher {
+        font-size: 13px;
+    }
+
+    .deskripsi_voucher {
+        padding: 10px;
+    }
+
+    .deskripsi_voucher_judul h5 {
+        font-size: 14px;
+    }
+
+    .deskripsi_voucher_judul p {
+        font-size: 12px;
+    }
+
+    .deskripsi_voucher_waktu h5 {
+        font-size: 10px;
+        font-weight: 500;
+        color: var(--grey);
+    }
+
+    .button_voucher {
+        width: 60px;
+        font-size: 11px;
+        padding: 4px 0;
+        margin-right: 10px;
+    }
+
+    .button_voucher_dk {
+        width: 60px;
+        font-size: 11px;
+        padding: 4px 0;
+        margin-right: 10px;
+    }
+
+    .dot_voucher {
+        height: calc(100% - 12px);
+        border-left: 6px dotted var(--white);
+        margin-left: -3px;
+    }
+
+
+    .loading_voucher {
+        margin-right: 30px;
+    }
+}

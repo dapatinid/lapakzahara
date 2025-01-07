@@ -1,0 +1,60 @@
+@import url('../all.css');
+
+/* TITLE */
+
+.box_judul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    background-color: var(--white);
+}
+
+.box_judul p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.box_judul span {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.box_produk {
+    width: 100%;
+    margin-top: 15px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    .box_judul {
+        margin-top: 15px;
+        padding: 0 15px;
+        height: 53px;
+    }
+    .box_judul p {
+        font-size: 15px;
+    }
+    .box_judul span {
+        font-size: 15px;
+    }
+    .box_produk{
+        background-color: var(--white);
+        margin-top: 0;
+        padding: 0px 15px 15px 15px;
+        grid-gap: 10px;
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+    }
+}

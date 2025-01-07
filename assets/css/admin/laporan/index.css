@@ -1,0 +1,32 @@
+@import url('../../all.css');
+
+.box_c_lap_adm {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.isi_box_c_lap_adm {
+    width: 100%;
+    padding: 20px;
+    background-color: var(--white);
+    box-sizing: border-box;
+}
+
+.isi_box_c_lap_adm p {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.isi_box_c_lap_adm h5 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.isi_box_c_lap_adm h1 {
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 5px;
+}

@@ -1,0 +1,336 @@
+@import url('../all.css');
+/* TITLE */
+
+.box_judul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    background-color: var(--white);
+}
+
+.box_judul p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.box_judul span {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.box_produk {
+    width: 100%;
+    margin-top: 15px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.content_view {
+    width: 100%;
+    background-color: var(--white);
+    margin-top: 0px;
+}
+
+.box_profile_penjual {
+    width: 100%;
+    padding: 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile_penjual {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.kanan {
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+}
+
+.profile_penjual img {
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+    object-fit: cover;
+}
+
+.name_profile_penjual {
+    flex: 1;
+    margin-left: 20px;
+}
+
+.name_profile_penjual h1 {
+    color: var(--black);
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.name_profile_penjual p {
+    color: var(--grey);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 4px;
+}
+
+.name_profile_penjual p span {
+    color: var(--orange);
+}
+
+.box_chat_visit {
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.isi_chat_visit {
+    padding: 8px 15px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid var(--border-grey);
+    cursor: pointer;
+    color: var(--semi-black);
+    transition: 0.2s;
+}
+
+.isi_chat_visit:hover {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+
+.isi_chat_visit i {
+    font-size: 17px;
+    margin-top: -2px;
+}
+
+.isi_chat_visit p {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.isi_chat_visit1 {
+    padding: 8px 15px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid var(--border-grey);
+    cursor: pointer;
+    color: var(--grey);
+    transition: 0.2s;
+}
+
+.isi_chat_visit1:hover {
+    border: 2px solid var(--orange);
+    color: var(--orange);
+}
+
+.isi_chat_visit1 i {
+    font-size: 17px;
+    margin-top: -2px;
+}
+
+.isi_chat_visit1 p {
+    font-size: 13px;
+    font-weight: 600;
+    margin-left: 8px;
+}
+
+.profile-picture {
+    position: relative;
+    display: inline-block;
+}
+
+.profile-picture img {
+    display: block;
+}
+
+.online-icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: green; /* Ganti dengan warna yang Anda inginkan */
+    border-radius: 50%;
+    bottom: 1px;
+    right: 1px;
+    border: 2px solid white;
+}
+.offline-icon {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: red; /* Ganti dengan warna yang Anda inginkan */
+    border-radius: 50%;
+    bottom: 1px;
+    right: 1px;
+    border: 2px solid white;
+}
+
+.status-user {
+    font-size: 14px;
+    color: var(--semi-black);
+    opacity: .7;
+}
+
+.keterangan {
+  padding: 8px 20px;
+  color: var(--grey);
+  transition: 0.2s;
+  text-align: center;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.keterangan p{
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+}
+.separator {
+  border-left: 1px solid #00000014;
+  height: 40px;
+  margin: 10px;
+}
+
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    .kanan {
+   width: auto;
+  margin-top: 20px;
+    }
+    
+    .keterangan {
+     color: rgba(46,49,55,0.96);
+  font-size: 12px;
+  white-space: nowrap;
+    }
+    .keterangan p{
+    color: rgba(46,49,55,0.68);
+  font-size: 10px;
+    }
+    .online-icon,
+    .offline-icon {
+        width: 15px;
+        height: 15px;
+        bottom: 1%;
+        right: 1%;
+        }
+        
+     .status-user {
+    font-size: 12px;
+  
+
+}   
+    .box_judul {
+        margin-top: 15px;
+        padding: 0 15px;
+        height: 53px;
+    }
+    .box_judul p {
+        font-size: 15px;
+    }
+    .box_judul span {
+        font-size: 15px;
+    }
+    .box_produk {
+        background-color: var(--white);
+        margin-top: 0;
+        padding: 0px 15px 15px 15px;
+        grid-gap: 10px;
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+    }
+    .content_view {
+        margin-top: 15px;
+    }
+    .box_profile_penjual {
+        padding: 15px;
+        flex-direction: column;
+    }
+    .profile_penjual img {
+        width: 65px;
+        height: 65px;
+    }
+    .name_profile_penjual {
+        flex: 1;
+        margin-left: 15px;
+    }
+    .name_profile_penjual h1 {
+        color: var(--black);
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .name_profile_penjual p {
+        color: var(--grey);
+        font-size: 12px;
+        font-weight: 500;
+        margin-top: 1px;
+    }
+    .name_profile_penjual p span {
+        color: var(--orange);
+    }
+    .box_chat_visit {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 15px;
+        margin-top: 15px;
+    }
+    .isi_chat_visit {
+        margin-left: 0;
+        width: 100%;
+        flex: 1;
+        border: 1px solid var(--border-grey);
+        justify-content: center;
+        border-radius:15px;
+    }
+    .isi_chat_visit i {
+        font-size: 17px;
+        margin-top: -2px;
+    }
+    .isi_chat_visit p {
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 8px;
+    }
+    
+    .isi_chat_visit1 {
+        margin-left: 0;
+        width: 100%;
+        flex: 1;
+        border: 1px solid var(--border-grey);
+        justify-content: center;
+        border-radius:15px;
+    }
+    .isi_chat_visit1 i {
+        font-size: 17px;
+        margin-top: -2px;
+    }
+    .isi_chat_visit1 p {
+        font-size: 12px;
+        font-weight: 600;
+        margin-left: 8px;
+    }
+}

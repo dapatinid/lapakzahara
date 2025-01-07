@@ -1,0 +1,157 @@
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 7
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 12
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 13
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 14
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 15
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 17
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 18
+[02-Mar-2024 15:12:49 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 19
+[05-Mar-2024 20:51:57 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 20:57:52 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 20:58:16 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 20:59:15 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 20:59:33 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 21:01:35 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 21:01:35 Asia/Jakarta] 
+[05-Mar-2024 21:04:24 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 21:04:24 Asia/Jakarta] 
+[05-Mar-2024 21:05:58 Asia/Jakarta] PHP Notice:  Undefined index: inp_tipe_bk in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php on line 5
+[05-Mar-2024 21:05:58 Asia/Jakarta] 
+[05-Mar-2024 21:07:39 Asia/Jakarta] 
+[05-Mar-2024 21:07:52 Asia/Jakarta] 2
+[05-Mar-2024 21:10:41 Asia/Jakarta] 
+[05-Mar-2024 21:11:14 Asia/Jakarta] 2
+[05-Mar-2024 21:24:06 Asia/Jakarta] 3
+[11-Mar-2024 18:55:40 Asia/Jakarta] 1
+[11-Mar-2024 18:55:44 Asia/Jakarta] 1
+[11-Mar-2024 18:56:12 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/lapk1813/public_html/multiseller.my.id/config.php:122
+Stack trace:
+#0 /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php(2): include()
+#1 {main}
+  thrown in /home/lapk1813/public_html/multiseller.my.id/config.php on line 122
+[11-Mar-2024 18:56:32 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined method mysqli_stmt::get_result() in /home/lapk1813/public_html/multiseller.my.id/config.php:122
+Stack trace:
+#0 /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/metode-pembayaran.php(2): include()
+#1 {main}
+  thrown in /home/lapk1813/public_html/multiseller.my.id/config.php on line 122
+[11-Mar-2024 18:56:33 Asia/Jakarta] 1
+[11-Mar-2024 18:58:33 Asia/Jakarta] 1
+[11-Mar-2024 19:04:26 Asia/Jakarta] 1
+[11-Mar-2024 19:04:49 Asia/Jakarta] 1
+[11-Mar-2024 19:06:13 Asia/Jakarta] 1
+[11-Mar-2024 19:19:00 Asia/Jakarta] 1
+[11-Mar-2024 19:20:32 Asia/Jakarta] 2
+[11-Mar-2024 19:27:12 Asia/Jakarta] 3
+[11-Mar-2024 20:54:30 Asia/Jakarta] 
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 7
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 12
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 13
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 14
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 15
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 17
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 18
+[11-Mar-2024 21:28:55 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 19
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 7
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 12
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 13
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 14
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 15
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 17
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 18
+[12-Mar-2024 13:54:05 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 19
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 7
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 12
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 13
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 14
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 15
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 17
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 18
+[23-Mar-2024 23:18:59 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 19
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 7
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 12
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 13
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 14
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 15
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 17
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 18
+[24-Mar-2024 00:59:24 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/lapk1813/public_html/multiseller.my.id/system/admin/settings/kurir-setting.php on line 19
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[29-Apr-2024 19:56:46 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[29-Apr-2024 19:56:50 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/laph9349/public_html/seller.lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[11-Jul-2024 03:29:17 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[11-Jul-2024 06:28:39 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[11-Jul-2024 06:29:52 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[11-Jul-2024 06:30:44 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[12-Jul-2024 00:12:05 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[12-Jul-2024 00:12:12 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[12-Jul-2024 00:12:35 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: impkur24 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 7
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp0 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 12
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp1 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 13
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp2 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 14
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: kirim_instan_kp3 in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 15
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_go in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 17
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: min_harga_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 18
+[12-Jul-2024 00:22:05 Asia/Jakarta] PHP Notice:  Undefined index: min_persen_diss in /home/tegarjay/lapakzahara.com/system/admin/settings/kurir-setting.php on line 19

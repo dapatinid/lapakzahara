@@ -1,0 +1,610 @@
+@import url('./all.css');
+@import url('./flashsale/index.css');
+/* BANNER IKLAN */
+
+.banner_iklan {
+    width: 100%;
+    margin-top: 0px;
+}
+
+.banner_big_iklan {
+    width: 100%;
+}
+
+.img_banner_big_iklan {
+    width: 100%;
+    height: 255px;
+    object-fit: cover;
+}
+
+/* JIKA STOK HABIS */
+
+.image_container img.stok_habis_image {
+    filter: grayscale(100%);
+}
+
+.keterangan_stok_habis {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 600;
+  color: #fff;
+  text-shadow: #000 1px 0 10px;
+  background: #00000061;
+  padding: 0 50px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+/* KATEGORI */
+
+.kategori {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.isi_kategori {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--white);
+    transition: 0.2s;
+}
+
+.isi_kategori:hover {
+    border: 2px solid var(--orange);
+}
+
+.isi_kategori img {
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+}
+
+.isi_kategori p {
+    font-size: 14px;
+    margin-top: 15px;
+    color: var(--black);
+    text-align: center;
+    line-height: 20px;
+}
+
+/* BRAND */
+
+.brand {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px; 
+}
+
+.isi_brand {
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid var(--white);
+    transition: 0.2s;
+}
+
+.isi_brand:hover {
+    border: 2px solid var(--orange);
+    border-radius: 3px;
+}
+
+.isi_brand img {
+    width: auto;
+    height: 20px;
+    object-fit: cover;
+}
+
+.isi_brand p {
+    font-size: 14px;
+    color: var(--black);
+    text-align: center;
+    line-height: 20px;
+}
+
+/* ICON ON BOX */
+.box_icon_1 {
+    position: absolute;
+    margin-top: 5px;
+    color: var(--white);
+    left: 0px;
+    background-color: var(--orange);
+    font-weight: 600;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 0 50px 50px 0;
+  }
+
+.box_icon_1_2 {
+    position: absolute;
+    margin-top: 5px;
+    color: var(--white);
+    left: 0px;
+    background-color: #f2300c;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 0 50px 50px 0;
+  }
+
+.box_icon_1_2_3 {
+    position: absolute;
+    margin-top: 30px;
+    color: var(--white);
+    left: 0px;
+    background-color: #ff8f00;
+    font-weight: 600;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 0 50px 50px 0;
+}
+
+.box_icon_2 {
+    position: absolute;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 0;
+    right: 0px;
+    padding: 2px 5px;
+    border-radius: 50px 0 0 50px;}
+
+/* PRODUK TERLARIS */
+
+.box_title_produk_terlaris {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_title_produk_terlaris p {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.box_judul_ptl {
+    width: 100%;
+    height: 43px;
+}
+
+.box_judul_ptl p {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: var(--black);
+    font-size: 14px;
+}
+
+.box_harga_ptl {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.box_harga_ptl h1 {
+    font-size: 15px;
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.box_harga_ptl span {
+    font-size: 13px;
+}
+
+.box_harga_ptl p {
+    font-size: 11.5px;
+    color: var(--black);
+}
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 900px) {
+    .banner_big_iklan {
+        width: 100%;
+        height: auto;
+    }
+
+    .img_banner_big_iklan {
+        height: 90px;
+    }
+
+    .banner_small_iklan {
+        display: none;
+    }
+
+    .box_kategori {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .box_kategori::-webkit-scrollbar {
+        display: none;
+    }
+
+    .box_brand {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+    }
+
+    .box_brand::-webkit-scrollbar {
+        display: none;
+    }
+
+    .box_iklan_flash_sale_1 {
+        overflow: auto;
+        -ms-overflow-style: none;
+        scrollbar-width: none;
+        padding: 10px 0px 10px 0px;
+    }
+
+    .box_iklan_flash_sale_1::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.back_popup_pemilik {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.popup_pemilik {
+    width: 400px;
+    padding: 30px;
+    background-color: var(--white);
+    border-radius: 3px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.popup_pemilik h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.popup_pemilik p {
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--black);
+    margin-top: 20px;
+}
+
+.popup_pemilik span {
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.popup_pemilik h2 {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--black);
+    margin-top: 20px;
+}
+
+.popup_pemilik h2 a {
+    color: #075E54;
+}
+
+.close_pp {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.close_pp i {
+    font-size: 17px;
+    color: var(--black);
+}
+
+.kategori_kota {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+    margin-top: 15px;
+}
+.isi_kategori_kota_biasa {
+    width: 100%;
+    height: 120px;
+    position: relative;
+  } 
+  .isi_kategori_kota_biasa img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+  }
+  .back_isi_kategori {
+    width: 100%;
+    height: 100%;
+    background-color: var(--bg-transparent-black);
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .back_isi_kategori p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--white);
+  } 
+
+@media only screen and (max-width: 600px) {
+    .banner_iklan {
+        margin-top: 15px;
+    }
+
+    .banner_big_iklan {
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .box_kategori {
+        width: 100%;
+    }
+
+    .kategori {
+        width: 850px;
+        box-sizing: border-box;
+        padding: 0 15px;
+        grid-gap: 10px;
+        margin-top: 15px;
+    }
+
+    .isi_kategori {
+        /* background-color: red; */
+        padding: 10px 0;
+    }
+
+    .isi_kategori img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .isi_kategori p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+    .box_brand {
+        width: 100%;
+    }
+
+    .brand {
+        width: 850px;
+        box-sizing: border-box;
+        padding: 0 15px;
+        grid-gap: 10px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .isi_brand {
+        /* background-color: red; */
+        padding: 10px 0;
+    }
+
+    .isi_brand img {
+        width: auto;
+        height: 20px;
+    }
+
+    .isi_brand p {
+        font-size: 11px;
+        line-height: 16px;
+    }
+
+
+
+    .flash_sale {
+        margin-top: 15px;
+        background-color: var(--white);
+    }
+
+    .title_flash_sale {
+        padding: 15px;
+    }
+    
+    .title_flash_sale1 {
+        padding: 15px;
+    }
+
+    .box_title_flash_sale {
+        justify-content: space-between;
+    }
+    
+    .box_title_flash_sale1 {
+        justify-content: space-between;
+    }
+    
+
+    .box_lihat_semua_fs {
+        display:none
+    }
+    .box_lihat_semua_fs1 {
+        display:none
+    }
+
+    .countdown_flash_sale {
+        float: right;
+        margin-left: 0;
+        
+    }
+
+    .box_title_flash_sale i {
+        font-size: 15.5px;
+    }
+
+    .box_title_flash_sale p {
+        font-size: 18px;
+    }
+    
+    .box_title_flash_sale1 i {
+        font-size: 15.5px;
+    }
+
+    .box_title_flash_sale1 p {
+        font-size: 18px;
+    }
+
+    .countdown_flash_sale div {
+        width: 27px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    .countdown_flash_sale span {
+        font-size: 12px;
+        margin: 0 4px;
+    }
+
+    .box_iklan_flash_sale {
+        width: 850px;
+        padding: 0 10px;
+        /* background-color: red; */
+        margin: 0;
+        grid-gap: 10px;
+    }
+
+    .box_iklan_flash_sale_hd {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0 15px;
+        box-sizing: border-box;
+    }
+
+    .iklan_flash_sale img {
+        height: 150px;
+    }
+
+    .iklan_flash_sale h1 {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .iklan_flash_sale span {
+        font-size: 16px;
+    }
+
+    .total_barang_flash_sale {
+        height: 18px;
+    }
+
+    .text_judul_flash_sale p {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        color: var(--black);
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .text_barang_flash_sale p {
+        font-size: 12px;
+    }
+
+    .iklan_flash_sale {
+        /* background-color: red; */
+        border: 2px solid var(--semi-grey)
+    }
+
+    .box_persen_flashsale p {
+        font-size: 11px;
+    }
+
+    .title_flash_sale p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+
+    .grid_terlaris {
+        width: 100%;
+        grid-template-columns: 1fr 1fr;
+        box-sizing: border-box;
+    }
+
+    .popup_pemilik {
+        width: 92%;
+    }
+
+    .popup_pemilik h1 {
+        font-size: 18px;
+    }
+
+    .popup_pemilik p {
+        font-size: 15px;
+    }
+
+    .popup_pemilik h2 {
+        font-size: 16px;
+    }
+
+    .lihat_semua_t {
+        font-size: 13px;
+        color: var(--orange);
+        font-weight: 500;
+    }
+
+    .kategori_kota {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        padding: 0 15px;
+        box-sizing: border-box;
+      }
+
+      .isi_kategori_kota_biasa {
+        width: 100%;
+        height: 70px;
+        position: relative;
+      }
+      .back_isi_kategori p {
+        text-align: center;
+        font-size: 15px;
+        font-weight: 600;
+        color: var(--white);
+      }
+
+}

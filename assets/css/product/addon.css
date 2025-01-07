@@ -1,0 +1,59 @@
+.box_ov_gambar_pd {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 5px;
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	z-index: 1;
+}
+
+.box_w4ishlist {
+	width: 25px;
+	height: 25px;
+	background-color: var(--semi-grey);
+	border-radius: 40px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.w4ishlist_active {
+	font-size: 15px;
+	margin-top: 1px;
+	color: var(--orange);
+	cursor: pointer;
+}
+
+.w4ishlist_nonactive {
+	font-size: 15px;
+	margin-top: 1px;
+	color: var(--grey);
+	cursor: pointer;
+}
+
+.w4ishlist_active_an {
+	font-size: 15px;
+	margin-top: 1px;
+	color: var(--orange);
+	cursor: pointer;
+	animation: love_w4ishlist 0.2s;
+}
+
+@keyframes love_w4ishlist {
+	50% {
+		font-size: 30px;
+	}
+}
+
+.w4ishlist_hidden {
+	display: none;
+}
+
+.text_list_produk {
+	width: 100%;
+	padding: 13px 15px 0px 15px;
+	float: left;
+	box-sizing: border-box;
+}
+

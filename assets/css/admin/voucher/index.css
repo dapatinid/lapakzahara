@@ -1,0 +1,603 @@
+@import url('../../all.css');
+
+    .box_left_aua {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_left_aua img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+.isi_box_left_aua {
+    margin-left: 15px;
+}
+
+.isi_box_left_aua h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.isi_box_left_aua p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--semi-black);
+    margin-top: 2px;
+}
+
+.box_right_aua {
+    flex: 1;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.isi_box_right_aua {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.isi_box_right_aua1 {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua1 h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua1 p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.isi_box_right_aua2 {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua2 h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua2 p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.isi_box_right_aua3 {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua3 h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua3 p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.isi_box_right_aua4 {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua4 h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua4 p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 0;
+    text-align: right;
+}
+
+.bu_edit_aua {
+    width: 35px;
+    height: 35px;
+    background-color: var(--orange);
+    margin-left: 40px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.bu_delete_aua {
+    width: 35px;
+    height: 35px;
+    background-color: var(--border-grey);
+    margin-left: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--semi-black);
+}
+
+.add_voucher_adm {
+    width: 100%;
+    padding: 15px 0;
+    background-color: var(--white);
+    margin-top: 15px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    color: var(--semi-black);
+    transition: 0.2s;
+}
+
+.add_voucher_adm:hover {
+    color: var(--orange);
+}
+
+.add_voucher_adm p {
+    font-size: 15px;
+    font-weight: 500;
+    margin-right: 10px;
+}
+
+.add_voucher_adm i {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.tambah_voucher_form {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-transparent-black);
+    position: fixed;
+    z-index: 99999;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.isi_tambah_voucher_form {
+    width: 430px;
+    padding: 25px;
+    box-sizing: border-box;
+    background-color: var(--white);
+}
+
+.isi_tambah_voucher_form h1 {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.box_form_tk {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 15px;
+    margin-top: 25px;
+}
+
+.isi_box_form_tk {
+    width: 100%;
+}
+
+.isi_box_form_tk p {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--semi-black);
+    margin-bottom: 3px;
+}
+
+.box_button_edit_akun {
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.button_cancel_edit_akun {
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: var(--border-grey);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button_confirm_edit_akun {
+    width: 130px;
+    height: 40px;
+    border-radius: 3px;
+    background-color: var(--orange);
+    margin-left: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.button_confirm_edit_akun img {
+    height: 20px;
+    display: none;
+}
+
+.img_edit_voucher{
+    width: auto;
+    height: 50px;
+    object-fit: cover;
+}
+
+
+.buat_voucher {
+    width: 100%;
+    height: 55px;
+    background-color: var(--orange);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: var(--white);
+    cursor: pointer;
+}
+
+.buat_voucher p {
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.buat_voucher i {
+    margin-left: 5px;
+}
+
+.all_users_admin {
+    width: 100%;
+    margin-top: 15px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+}
+
+.isi_all_users_admin {
+    width: 100%;
+    padding: 15px 20px;
+    background-color: var(--white);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_left_aua {
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_left_aua img {
+    width: 45px;
+    height: 45px;
+    border-radius: 45px;
+    object-fit: cover;
+}
+
+.isi_box_left_aua {
+    margin-left: 15px;
+}
+
+.isi_box_left_aua h5 {
+    font-size: 15px;
+    font-weight: 600;
+    color: var(--black);
+}
+
+.isi_box_left_aua p {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--semi-black);
+    margin-top: 2px;
+}
+
+.box_right_aua {
+    flex: 1;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.isi_box_right_aua {
+    /* background-color: blue; */
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.isi_box_right_aua h3 {
+    color: var(--grey);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: right;
+}
+
+.isi_box_right_aua p {
+    color: var(--semi-black);
+    font-size: 14px;
+    font-weight: 500;
+    margin-top: 2px;
+    text-align: right;
+}
+
+.bu_edit_aua {
+    width: 35px;
+    height: 35px;
+    background-color: var(--orange);
+    margin-left: 30px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--white);
+}
+
+.bu_delete_aua {
+    width: 35px;
+    height: 35px;
+    background-color: var(--border-grey);
+    margin-left: 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    color: var(--semi-black);
+}
+
+.back_btv {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    z-index: 2;
+    background-color: var(--bg-transparent-black);
+    align-items: center;
+    justify-content: center;
+    display: none;
+}
+
+.btv {
+    width: 550px;
+    padding: 30px;
+    background-color: var(--white);
+    box-sizing: border-box;
+    position: relative;
+}
+
+.close_btv {
+    position: absolute;
+    font-size: 20px;
+    color: var(--red);
+    top: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+
+.btv h1 {
+    font-size: 20px;
+    color: var(--black);
+}
+
+.box_inp_btv {
+    width: 100%;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.bu_btv {
+    margin-top: 25px;
+}
+
+.hapus_voucher_ac{
+    display: none;
+}
+
+@media only screen and (max-width: 900px) {
+    
+    .isi_tambah_voucher_form
+{
+  padding: 15px;
+  width: 92%;
+}
+
+    .box_left_aua {
+        width: 100px;
+    }
+    
+    .isi_box_right_aua4
+{
+  margin-left: 0px;
+}
+.isi_box_right_aua4 h3
+{
+  
+  font-size: 12px;
+}
+.isi_box_right_aua4 p
+{
+  font-size: 12px;
+}
+
+.isi_box_left_aua h5
+{
+  font-size: 13px;
+}
+
+    .isi_box_right_aua1 {
+        display: none;
+    }
+
+    .isi_box_right_aua2 {
+        display: none;
+    }
+
+    .isi_box_right_aua3 {
+        display: none;
+    }
+
+    .isi_box_left_aua p {
+        display: none;
+    }
+    
+}
+
+/* Style untuk tampilan seluler */
+@media (max-width: 768px) {
+    
+    .isi_all_users_admin {
+        padding: 10px 10px;
+    }
+    .bu_delete_aua {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+    }
+    .bu_edit_aua {
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+    }
+    .box_left_aua img {
+  width: 35px;
+  height: 35px;
+    }
+    
+    .isi_tp_adm {
+        padding: 15px;
+        width: 92%;
+    }
+
+    .box_form_isi_tp_adm,
+    .box_form_isi_tp_adm2,
+    .box_varian_produk_adm {
+        margin-bottom: 0;
+    }
+
+    .box_form_isi_tp_adm,
+    .box_form_isi_tp_adm2 {
+        display: block;
+    }
+
+    .box_form_isi_tp_adm2 {
+        flex-direction: column;
+    }
+
+    .box_form_isi_tp_adm2 div {
+        margin-bottom: 10px;
+    }
+
+    .box_varian_produk_adm {
+        display: block;
+    }
+
+    .box_varian_produk_adm2 {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .box_varian_produk_adm2 .isi_varian_produk_adm2 {
+        flex-basis: calc(50% - 10px);
+    }
+    
+    .box_button_edit_akun {
+    margin-top: 20px;
+}
+
+    /* Tambahkan CSS tambahan sesuai kebutuhan responsif Anda */
+}

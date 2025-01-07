@@ -1,0 +1,7 @@
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 32
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 54
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Undefined variable: page in /home/tegarjay/lapakzahara.com/partials/bottom-navigation.php on line 7
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Undefined variable: page in /home/tegarjay/lapakzahara.com/partials/bottom-navigation.php on line 25
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Undefined variable: page in /home/tegarjay/lapakzahara.com/partials/bottom-navigation.php on line 61
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Undefined variable: page in /home/tegarjay/lapakzahara.com/partials/bottom-navigation.php on line 97
+[03-Jan-2025 01:18:39 Asia/Jakarta] PHP Notice:  Undefined variable: page in /home/tegarjay/lapakzahara.com/partials/bottom-navigation.php on line 137

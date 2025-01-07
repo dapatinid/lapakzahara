@@ -1,0 +1,443 @@
+@import url('../all.css');
+
+/* FLASH SALE */
+
+.flash_sale {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.title_flash_sale {
+    background-color: var(--white);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title_flash_sale1 {
+    background-color: var(--orange);
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_title_flash_sale {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_title_flash_sale i {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--orange);
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+
+.box_title_flash_sale p {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.box_title_flash_sale1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_title_flash_sale1 i {
+    font-size: 20px;
+    font-weight: 600;
+    color: var(--white);
+    margin-right: 5px;
+    margin-top: -3px;
+}
+
+
+.box_title_flash_sale1 p {
+    font-size: 25px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.countdown_flash_sale {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.countdown_flash_sale1 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    align-items: center;
+}
+
+.countdown_flash_sale div {
+    width: 32px;
+    height: 30px;
+    background-color: var(--orange);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--white);
+}
+
+.countdown_flash_sale1 div {
+    width: 32px;
+    height: 30px;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.countdown_flash_sale span {
+    margin: 0 5px;
+    font-weight: 600;
+    color: var(--black);
+    font-size: 16px;
+}
+
+.countdown_flash_sale1 span {
+    margin: 0 5px;
+    font-weight: 600;
+    color: var(--white);
+    font-size: 16px;
+}
+
+.lihat_semua_t {
+    font-size: 15px;
+    color: var(--orange);
+    font-weight: 500;
+}
+
+.box_iklan_flash_sale {
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.box_iklan_flash_sale_hd {
+    width: 100%;
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 5px;
+}
+
+.iklan_flash_sale {
+    width: 100%;
+    background-color: var(--white);
+    position: relative;
+    outline: 2px solid #0000;
+    border-radius: 10px;
+}
+.iklan_flash_sale:hover{
+    outline-color: var(--orange);
+
+}
+
+.box_persen_flashsale {
+    position: absolute;
+    background: #f2300c;
+    text-align: center;
+    margin-top: 5px;
+    color: var(--white);
+    font-weight: 600;
+    font-size: 11px;
+    border-radius: 0;
+    right: 0px;
+    padding: 2px 5px;
+    border-radius: 50px 15px 0px 50px;
+}
+
+.box_persen_flashsale_1 {
+    position: absolute;
+    margin-top: 5px;
+    color: var(--white);
+    left: 0px;
+    background-color: var(--orange);
+    font-weight: 600;
+    font-size: 11px;
+    padding: 2px 5px;
+    border-radius: 15px 50px 50px 0;
+}
+
+.iklan_flash_sale img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    float: left;
+    border-radius: 10px 10px 0 0;
+}
+
+.text_iklan_flash_sale {
+    width: 100%;
+    padding: 13px 5px 15px 5px;
+    float: left;
+    box-sizing: border-box;
+}
+
+.text_iklan_flash_sale h1 {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--orange);
+    text-align: center;
+}
+
+.text_iklan_flash_sale h3 {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--grey);
+    text-align: center;
+    margin-top: 10px;
+  }
+
+.text_iklan_flash_sale h3 span{
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--grey);
+    text-align: center;
+  }
+
+.text_iklan_flash_sale span {
+    font-size: 18px;
+}
+
+.total_barang_flash_sale {
+    width: 100%;
+    height: 20px;
+    margin-top: 15px;
+    background-color: var(--semi-orange);
+    border-radius: 20px;
+    position: relative;
+}
+
+.persen_barang_flash_sale {
+    height: 100%;
+    background-color: var(--orange);
+    border-radius: 20px;
+    position: absolute;
+}
+
+.text_barang_flash_sale {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.text_barang_flash_sale p {
+    font-size: 12px;
+    font-weight: 500;
+    color: var(--white);
+    text-align: center;
+    line-height: 20px;
+}
+
+.box_fs_res {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box_lihat_semua {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .box_lihat_semua_fs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--orange);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .box_lihat_semua_fs1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: var(--white);
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+/* TITLE */
+
+.box_judul {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 30px;
+    box-sizing: border-box;
+    margin-top: 0px;
+    background-color: var(--white);
+}
+
+.box_judul p {
+    font-size: 17px;
+    font-weight: 500;
+    color: var(--black);
+}
+
+.box_judul span {
+    font-size: 17px;
+    font-weight: 600;
+    color: var(--orange);
+}
+
+.box_produk {
+    width: 100%;
+    margin-top: 15px;
+    /* background-color: blue; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 15px;
+}
+
+.box_icon_4_1 {
+    bottom: 170px;
+    position: absolute;
+    left: 0px;
+    background-color: #00000069;
+    padding: 2px 5px;
+    border-radius: 0 50px 50px 0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+.box_icon_4_2 {
+  bottom: 170px;
+  position: absolute;
+  right: 0px;
+  background-color: #fffffff7;
+  padding: 2px 5px;
+  border-radius: 50px 0 0 50px;
+  font-weight: 600;
+  font-size: 11px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.box_iklan_flash_sale_1 {
+  background: var(--orange);
+  padding: 1px 10px 20px 10px;
+}
+
+/* LOAD MORE */
+
+.lihat_semua_t {    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    }
+    
+    .lihat_semua_t button {
+    padding: 10px 20px;
+    font-size: 14px;
+    background-color: var(--orange);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    
+    .lihat_semua_t button .loading-animation {
+    display: none;
+    width: 20px;
+    height: 20px;
+    border: 2px solid #ccc;
+    border-top: 2px solid #4CAF50;
+    border-radius: 50%;
+    animation: spin 1s linear infinite;
+    margin-right: 6px;
+    }
+    
+    .lihat_semua_t button.loading .loading-animation {
+    display: inline-block;
+    margin-right: 10px;
+    }
+    
+    @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+    }
+    
+    .lihat_semua_t button:hover {
+    background-color: #45a049;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+/* RESPONSIVE */
+
+@media only screen and (max-width: 600px) {
+    .box_judul {
+        margin-top: 15px;
+        padding: 0 15px;
+        height: 53px;
+    }
+    .box_judul p {
+        font-size: 15px;
+    } 
+    .box_judul span {
+        font-size: 15px;
+    }
+    .box_produk{
+        background-color: var(--white);
+        margin-top: 0;
+        padding: 0px 15px 15px 15px;
+        grid-gap: 10px;
+        box-sizing: border-box;
+        grid-template-columns: 1fr 1fr;
+    }
+    .box_icon_4_1 {
+        bottom: 158px;
+        font-weight: 600;
+        font-size: 11px;
+        
+      }
+      .box_icon_4_2 {
+        bottom: 158px;
+        font-weight: 600;
+        font-size: 11px;
+        
+      }
+} 

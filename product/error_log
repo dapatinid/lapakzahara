@@ -1,0 +1,15 @@
+[03-Jan-2025 06:00:03 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tegarjay/lapakzahara.com/config.php on line 9
+[03-Jan-2025 06:00:04 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 32
+[03-Jan-2025 06:00:04 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 54
+[03-Jan-2025 06:00:04 Asia/Jakarta] PHP Notice:  Undefined variable: isStoreOwner in /home/tegarjay/lapakzahara.com/product/view.php on line 486
+[03-Jan-2025 06:00:04 Asia/Jakarta] PHP Notice:  Undefined variable: status_user in /home/tegarjay/lapakzahara.com/product/view.php on line 630
+[03-Jan-2025 20:59:36 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tegarjay/lapakzahara.com/config.php on line 9
+[03-Jan-2025 20:59:36 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 32
+[03-Jan-2025 20:59:36 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 54
+[03-Jan-2025 20:59:36 Asia/Jakarta] PHP Notice:  Undefined variable: isStoreOwner in /home/tegarjay/lapakzahara.com/product/view.php on line 486
+[03-Jan-2025 20:59:36 Asia/Jakarta] PHP Notice:  Undefined variable: status_user in /home/tegarjay/lapakzahara.com/product/view.php on line 630
+[05-Jan-2025 09:14:21 Asia/Jakarta] PHP Notice:  session_start(): A session had already been started - ignoring in /home/tegarjay/lapakzahara.com/config.php on line 9
+[05-Jan-2025 09:14:21 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 32
+[05-Jan-2025 09:14:21 Asia/Jakarta] PHP Notice:  Trying to access array offset on value of type null in /home/tegarjay/lapakzahara.com/partials/header.php on line 54
+[05-Jan-2025 09:14:21 Asia/Jakarta] PHP Notice:  Undefined variable: isStoreOwner in /home/tegarjay/lapakzahara.com/product/view.php on line 486
+[05-Jan-2025 09:14:21 Asia/Jakarta] PHP Notice:  Undefined variable: status_user in /home/tegarjay/lapakzahara.com/product/view.php on line 630
